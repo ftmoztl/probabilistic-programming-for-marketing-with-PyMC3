@@ -6,12 +6,16 @@ Generalized Linear Models and Multilevel Models approaches were used to create a
 In this study, the probabilistic programming models are used by using the Python Pymc3 library to analyze the factors which have an effect on a potential client's subscription to a long-term deposit. You can find a detailed explanation of this study in this paper.
 
 # Dataset
-The ‘bank-additional’ dataset of the "Bank Marketing Dataset" was used to analyze the effect of different variables in the marketing area. The bank dataset includes 10 numeric attributes and 11 categorical attributes. 
+The [bank-additional][id/name] dataset of the "Bank Marketing Dataset" was used to analyze the effect of different variables in the marketing area. The bank dataset includes 10 numeric attributes and 11 categorical attributes.
+
+[id/name]: https://github.com/ftmoztl/probabilistic-programming-for-marketing-with-PyMC3/blob/main/dataset/bank-additional.csv
 
 # Environment
 To install the dependencies to run the notebook, you can use Anaconda. Once you have installed Anaconda, run:
 
-`$ conda env create -f environment.yml`
+```bash
+conda env create -f environment.yml
+```
 
 # Notebook 
 This Jupyter Notebook includes all code used for this study. It includes the following sections;
@@ -25,8 +29,7 @@ This Jupyter Notebook includes all code used for this study. It includes the fol
 
 
 # Proposed Resources
-
-[Statistical Rethinking][id/name]  is a proposed book for understanding the essentials of Bayesian Statistics, which introduces the probabilistic approach to the general problems solved by frequentist statistics. This study was utilized from this book.
+[Statistical Rethinking][id/name] is a proposed book for understanding the essentials of Bayesian Statistics, which introduces the probabilistic approach to the general problems solved by frequentist statistics. This study was utilized from this book.
 
 [id/name]: http://xcelab.net/rm/statistical-rethinking/
 
@@ -37,8 +40,7 @@ Other related studies:
 * Hosseini, S. (2021). A decision support system based on machined learned Bayesian network for predicting successful direct sales marketing. Journal of Management Analytics, 8(2), 295-315.
 
 # Contribution
-If you want to contribute please, send your pull request. All contributions are welcome!
+If you want to contribute, please send your pull request. All contributions are welcome!
 
 #
-
 Please check that repository for updates, for opening issues, or sending pull requests.

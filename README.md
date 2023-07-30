@@ -3,7 +3,9 @@ This repository proposes a probabilistic programming approach to predict the suc
 
 Generalized Linear Models and Multilevel Models approaches were used to create a scientific model and to analyze potential client who subscribes to a long-term deposit, which is considered an output variable. The causal relationship between marketing attributes and outcomes was created and interpreted according to the model results.
 
-In this study, the probabilistic programming models are used by using the Python Pymc3 library to analyze the factors which have an effect on a potential client's subscription to a long-term deposit. You can find a detailed explanation of this study in this paper.
+In this study, the probabilistic programming models are used by using the Python Pymc3 library to analyze the factors which have an effect on a potential client's subscription to a long-term deposit. You can find a detailed explanation of this study in this [report][id/name].
+
+[id/name]: https://github.com/ftmoztl/probabilistic-programming-for-marketing-with-PyMC3/blob/main/report/A%20Probabilistic%20Programming%20Approach%20to%20Predict%20The%20Success%20of%20Bank%20Telemarketing.pdf
 
 # Dataset
 The [bank-additional][id/name] dataset of the "Bank Marketing Dataset" was used to analyze the effect of different variables in the marketing area. The bank dataset includes 10 numeric attributes and 11 categorical attributes.

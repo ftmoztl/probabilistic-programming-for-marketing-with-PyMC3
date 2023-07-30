@@ -1,0 +1,20 @@
+name: probabilistic-programming-for-marketing-with-PyMC3
+channels:
+- defaults
+- anaconda
+- conda-forge
+dependencies:
+- python>=3.8
+- jupyter
+- jupyterlab>=3.0
+- pymc=4.0
+- pip
+- seaborn
+- matplotlib
+- numpy
+- scipy
+- pandas
+- arviz
+- theano
+- pip:
+  - daft
